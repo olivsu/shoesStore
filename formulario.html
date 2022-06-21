@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="formulario.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img id="logo" src="./img/logo-color.png">
+        </div>
+        <nav class="menu">
+            <a href="">Todos os produtos</a>
+            <a href="">Coleções</a>
+            <a href="">Outlet</a>
+        </nav>
+    </header>
+    <section class="formulario">
+        <div class="divForm">
+            <p id="pTime">Faça parte do nosso time</p>
+            <form action="/registro" method="get">
+                <p class="input">
+                    <label for="nome" name="nome" id="nome">Nome</label>
+                    <input type="text" name="nome">
+                </p>
+                <p class="input">
+                    <label for="email" name="email" id="email">Email</label>
+                    <input type="email" name="email">
+                </p>
+                <p class="input">
+                    <label for="telefone" name="telefone" id="telefone">Telefone</label>
+                    <input type="tel" name="email">
+                </p>
+                <p class="input">
+                    <label for="departamentos" name="departamentos" id="departamentos">Departamentos</label>
+                    <select name="departamentos" id="departamentos">
+                        <option value="opcao">Opção 1</option>
+                        <option value="opcao">Opção 2</option>
+                        <option value="opcao">Opção 3</option>
+                        <option value="opcao">Opção 4</option>
+                    </select>
+                </p>
+                <p class="input">
+                    <label for="disponibilidade" name="disponibilidade" id="disponibilidade">Disponibilidade</label>
+                </p>
+                <p class="input" id="disponibilidade">
+                    <label for="integral" name="integral" id="integral">Integral</label>
+                    <input type="checkbox" name="integral" value="Integral (8h)">
+                    <label for="meio" name="meio" id="meio">Meio</label>
+                    <input type="checkbox" name="disponibilidade" value="Meio Período (4h)">
+                    <label for="freelancer" name="freelancer" id="freelancer">Freelancer</label>
+                    <input type="checkbox" name="disponibilidade" value="Freelancer">
+                </p>
+                <p class="input"> 
+                    <label for="contato" name="contato" id="contato">Qual a melhor forma para entrarmos em contato com você?</label>
+                </p>
+                <p class="input" id="disponibilidade">
+                    <label for="contato" name="contato" id="email">Email</label>
+                    <input type="radio" name="contato" value="email">
+                    <label for="contato" name="contato" id="ligacao">Ligação</label>
+                    <input type="radio" name="contato" value="ligação">
+                    <label for="contato" name="contato" id="whatsapp">Whatsapp</label>
+                    <input type="radio" name="contato" value="whatsapp">
+                </p>
+                <p class="input" >
+                    <label for="mensagem" name="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem">Mensagem</textarea>
+                </p>
+                <p class="input">
+                    <label for="curriculo" name="curriculo" id="curriculo">Currículo</label>
+                    <input type="file" name="curriculo" accept=".doc,.pdf">
+                </p>
+                <button class="enviar" type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="divP">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div>
+            <img src="./img/logo-white.png">
+            <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit, sed do<br>eiusmod tempor incididunt ut labore<br>et dolore magna aliqua. </p>
+        </div>
+        <div>
+            <ul>
+                <li id="categorias">categorias</li>
+                <li>sandálias</li>
+                <li>botas</li>
+                <li>tênis</li>
+                <li>oxford</li>
+                <li>coturnos</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li id="institucional">institucional</li>
+                <li>sobre nós</li>
+                <li>perguntas frequentes</li>
+                <li>política de privacidade</li>
+                <li>rastreamento de pedidos</li>
+                <li>trabalhe conosco</li>
+                <li>contato</li>
+            </ul>
+        </div>
+    </footer>
+    <div id="promocao">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</body>
+</html>

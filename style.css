@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+    padding: 0 15px;
+}
+#logo{
+    width: 70%;
+    padding: 5%
+}
+.menu{
+    padding: 10px;
+    font-weight: 600;
+}
+.menu a{
+    text-decoration: none;
+    color: #766;
+    padding: 10px;
+}
+/**/
+#principal img{
+    width: 100%;
+}
+.vendidos{
+    display: flex;
+    margin: 2%;
+}
+#principal{
+    background-color: #C2185B;
+}
+.vendidosCada{
+    margin: 2%;
+    background-color: white;
+    margin-bottom: 5%;
+}
+.vendidosCada p{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 90%;
+}
+.vendidosCada .titulo{
+    font-weight: 700;
+}
+#off{
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+/**/
+#banner{
+    width: 100%;
+}
+/**/
+#estiloH p{
+    padding: 5%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 300%;
+}
+.estiloImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.estiloImg img1{
+    padding-left: 20%;
+}
+.estiloImg img2{
+    padding-right: 20%;
+}
+#estiloH{
+    padding-bottom: 10%;
+}
+/**/
+.sandalia{
+    display: flex;
+    justify-content: space-around;
+    margin: 8%;
+    align-items: flex-end;
+}
+.palmilha{
+    padding: 10%;
+    flex-grow: 1;
+    align-items: center;
+}
+.palmilha p{
+    font-weight: 600;
+    font-size: 150%;
+}
+.palmilha button{
+    padding: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 120%;
+    color: white;
+    background-color: #C2185B;
+    border: none;
+}
+/**/
+.footer{
+    background-color: #C2185B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 2%;
+}
+.footer ul{
+    list-style: none;
+}
+#institucional{
+    font-weight: bold;
+}
+#categorias{
+    font-weight: 900;
+}
